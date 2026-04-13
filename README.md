@@ -21,39 +21,26 @@ This repository contains all computational code and analyses from *"The reliabil
 ### 1. **Pedigree Management**
 
 Cutting_LargeFamillies.R : Subdivides large families into manageable sub-families for linkage analysis.
+
 peds_statistics.R : Computes comprehensive descriptive statistics for pedigree structures.
 
 ### 2. **Recombination Analysis**
 
-    ### Recomb_Number_Analyzes_allchr.R
-    Analyzes the count distribution of recombination events across all chromosomes.
-    
-    ### Recomb_Overlap_Analyzes_allchr.R
-    Compares recombination events detected between different methods.
-    
-    ### OverlapConfidence.R
-    Calculates confidence metrics for overlapping recombination regions.
-    
-    ### Recomb_EA-AA_Analyzes2.R
-    Stratified analysis by population ancestry (European Ancestry and African Ancestry populations).
+Recomb_Number_Analyzes_allchr.R : Analyzes the count distribution of recombination events across all chromosomes.
+
+Recomb_Overlap_Analyzes_allchr.R : Compares recombination events detected between different methods.
+
+OverlapConfidence.R : Calculates confidence metrics for overlapping recombination regions.
+
+Recomb_EA-AA_Analyzes2.R : Stratified analysis by population ancestry (European Ancestry and African Ancestry populations).
 
 ### 3. Merlin recombination events
 
-    ### Recomb_Merlin_UncutFam_allchr.R
-    Recombination events inférence by Merlin on Omniexpress chip
-    
-    ### Merlin_Recomb_allchr.sh
-    Shell script orchestrating Merlin recombination events inference pipeline.
+Recomb_Merlin_UncutFam_allchr.R : Recombination events inférence by Merlin on Omniexpress chip
+
+Merlin_Recomb_allchr.sh : Shell script orchestrating Merlin recombination events inference pipeline.
 
 
 📧 Contact & Support
 For questions regarding this code, please open an issue in the GitHub repository or contact the repository maintainer.
-
-🙏 Acknowledgments
-This work utilizes the following tools and packages:
-
-    R Core Team for R statistical computing
-    Goncalo Abecasis for Merlin linkage analysis software
-    Jonathan Marchini for Shapeit2 haplotype inference
-    Package developers (dplyr, xtable, kinship2, FamAgg)
 
