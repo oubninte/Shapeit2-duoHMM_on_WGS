@@ -1,11 +1,11 @@
 
 # Shapeit2-duoHMM on WGS: Recombination Inference and Analysis
     
-    > Comprehensive R and Shell scripts for analyzing the reliability and accuracy of recombination inference using Shapeit2 duoHMM on whole genome sequence (WGS) data.
+> Comprehensive R and Shell scripts for analyzing the reliability and accuracy of recombination inference using Shapeit2 duoHMM on whole genome sequence (WGS) data.
 
 ## 📋 Overview
 
-    This repository contains all computational code and analyses from *"The reliability and accuracy of recombination inferred by Shapeit2 duoHMM on whole genome sequence"* study. The project focuses on inferring recombination events from WGS data using the Shapeit2 duoHMM algorithm and comparing results with linkage analysis methods (Merlin).
+This repository contains all computational code and analyses from *"The reliability and accuracy of recombination inferred by Shapeit2 duoHMM on whole genome sequence"* study. The project focuses on inferring recombination events from WGS data using the Shapeit2 duoHMM algorithm and comparing results with linkage analysis methods (Merlin).
 
 **Key Features:**
     - Pedigree structure manipulation and family subdivision
@@ -18,13 +18,11 @@
 
 ## 🔧 Main Components
 
-### 1. **Pedigree Management**
+## 1. **Pedigree Management**
 
-    #### Cutting_LargeFamillies.R
-    Subdivides large families into manageable sub-families for linkage analysis.
-    
-    ### peds_statistics.R
-    Computes comprehensive descriptive statistics for pedigree structures.
+### Cutting_LargeFamillies.R : Subdivides large families into manageable sub-families for linkage analysis.
+
+### peds_statistics.R : Computes comprehensive descriptive statistics for pedigree structures.
 
 ### 2. **Recombination Analysis**
 
