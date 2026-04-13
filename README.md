@@ -18,11 +18,10 @@ This repository contains all computational code and analyses from *"The reliabil
 
 ## 🔧 Main Components
 
-## 1. **Pedigree Management**
+### 1. **Pedigree Management**
 
-### Cutting_LargeFamillies.R : Subdivides large families into manageable sub-families for linkage analysis.
-
-### peds_statistics.R : Computes comprehensive descriptive statistics for pedigree structures.
+Cutting_LargeFamillies.R : Subdivides large families into manageable sub-families for linkage analysis.
+peds_statistics.R : Computes comprehensive descriptive statistics for pedigree structures.
 
 ### 2. **Recombination Analysis**
 
